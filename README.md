@@ -2,9 +2,9 @@
 
 Mastering these coding challenges may not get you a job at google... but you'll be one step closer to building your own JavaScript game at [codeguppy.com](https://codeguppy.com). 
 
-These coding challenges are intended for beginners. Therefore the solutions are implemented using only simple / classical programming elements. Each solution is acompanied by an online link that helps you quickly run it in a code playground at [codeguppy.com](https://codeguppy.com)
+These coding challenges are intended for beginners, therefore the solutions are implemented using only simple / classical programming elements. Each solution is acompanied by an online link that helps you quickly run it in a code playground at [codeguppy.com](https://codeguppy.com)
 
-> Note: The code is making use of the codeguppy specific function `println()` to print the results. If you want to run these solutions outside [codeguppy.com](https://codeguppy.com), just replace `println()` with `console.log()` then run them using your browser console tool or node.js in command line.
+> Note: The code is making use of the codeguppy specific function `println()` to print the results. If you want to run these solutions outside [codeguppy.com](https://codeguppy.com), just replace `println()` with `console.log()` then run them using your browser console tool or node.js.
 
 ## Coding challenge #1: Print numbers from 1 to 10
 
@@ -66,7 +66,7 @@ function printTable(n)
 
 <https://codeguppy.com/code.html?Vy6u9kki2hXM4YjsbpuN>
 
-``
+```
 var sum = 0;
 
 for(var i = 1; i <= 10; i++)
@@ -75,7 +75,7 @@ for(var i = 1; i <= 10; i++)
 }
 
 println(sum);
-``
+```
 
 ## Coding challenge #6: Calculate 10!
 
