@@ -362,9 +362,9 @@ println(5, " is prime? ", isPrime(5));
 println(9, " is prime? ", isPrime(9));
 ```
 
-<https://codeguppy.com/code.html?RHA714FYio8gWgmjWYPz>
-
 ## Coding challenge #17: Calculate the sum of digits of a positive integer number
+
+<https://codeguppy.com/code.html?RHA714FYio8gWgmjWYPz>
 
 ```
 function sumDigits(n)
