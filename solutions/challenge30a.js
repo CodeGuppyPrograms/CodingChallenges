@@ -23,13 +23,11 @@ function add(sNumber1, sNumber2)
         var digit1 = digitFromRight(sNumber1, i);
         var digit2 = digitFromRight(sNumber2, i);
         
-        var sum = digit1 + digit2;
-        
+        var sum = digit1 + digit2 + carry;
         var digitSum = sum % 10;
-        digitSum += carry;
-        s = digitSum.toString() + s;
-        
         carry = sum >= 10 ? 1 : 0;
+        
+        s = digitSum.toString() + s;
     }
     
     if (carry > 0)

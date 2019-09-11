@@ -1,17 +1,29 @@
-// Coding challenge #30: Create a function that will add two 
-// positive numbers of indefinite size. The numbers are received as strings 
-// and the result should be also provided as string.
-// https://codeguppy.com/code.html?yMQXcPgfrYxuaIxqQmZc
+// Coding challenge #52. Calculate Fibonacci(500) with high precision (all decimals)
+// https://codeguppy.com/code.html?OD5GDYyCVo4wgTRCXzRU
 
-// solution 2
+println(fibonacci(500));
 
-var n1 = "2909034221912398942349";
-var n2 = "1290923909029309499";
-var sum = add(n1, n2);
+function fibonacci(n)
+{
+    if (n === 0)
+        return "0";
 
-println(n1);
-println(n2);
-println(sum);
+    if (n === 1)
+        return "1";
+
+    var n1 = "0";
+    var n2 = "1";
+
+    for(var i = 2; i <= n; i++)
+    {
+        var sum = add(n1, n2);
+
+        n1 = n2;
+        n2 = sum;
+    }
+
+    return n2;
+}
 
 function add(sNumber1, sNumber2)
 {
@@ -31,7 +43,7 @@ function add(sNumber1, sNumber2)
         var sum = digit1 + digit2 + carry;
         var digitSum = sum % 10;
         carry = sum >= 10 ? 1 : 0;
-        
+
         s = digitSum.toString() + s;
     }
     
