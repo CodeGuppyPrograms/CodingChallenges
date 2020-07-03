@@ -1727,7 +1727,7 @@ function add(sNumber1, sNumber2)
 }
 ```
 
-## Coding challenge #53. Calculate 70! with high precision (all decimals)
+## Coding challenge #53. Calculate 70! with high precision (all digits)
 <https://codeguppy.com/code.html?m4AfgJmCABGNEvKlUNtM>
 
 ```
