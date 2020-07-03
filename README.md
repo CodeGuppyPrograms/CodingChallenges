@@ -1244,12 +1244,14 @@ println(ar);
 function bubbleSort(ar)
 {
     var shouldSort = true;
+    var length = ar.length;
 
     while(shouldSort)
     {
         shouldSort = false;
+        length--;
         
-        for(var i = 0; i < ar.length - 1; i++)
+        for(var i = 0; i < length; i++)
         {
             var a = ar[i];
             if ( a > ar[i+1] )
