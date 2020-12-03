@@ -1,4 +1,4 @@
-# Micro Coding Challenges - with solutions
+# JavaScript Coding Challenges for beginners
 
 Mastering these coding challenges may not get you a job at google... but you'll be one step closer to building your own JavaScript game at [codeguppy.com](https://codeguppy.com). 
 
